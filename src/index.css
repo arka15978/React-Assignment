@@ -1,0 +1,72 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+body{
+    background-color: rgb(48,48,48);
+}
+h1{
+    background-color: black;
+    color : white;
+    margin : 0 !important;
+    padding : 20px !important;
+  
+    
+}
+.row{
+    margin : 10px;
+  
+    background-color: black;
+    color : white;
+    padding : 10px;
+    border-radius: 10px;
+}
+.row img{
+    border-radius : 15px;
+}
+
+.user-profile img{
+    width : 50px;
+    height : 50px;
+
+}
+.profile{
+    text-align: right;
+}
+.navNav{
+    background-color: rgb(48,48,48);
+    
+
+}
+.nav-item a{
+    color : white !important;
+}
+.nav-item a:hover{
+    border-bottom: 2px solid #fff;
+    cursor : pointer;
+}
+.fa-bars{
+    font-size: 22px !important;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    cursor: pointer;
+}
+li{
+    list-style: none;
+}
+select{
+    background-color: rgb(48,48,48);
+    color : white;
+    border : none;
+    z-index : 10;
+}
+#filter{
+    background-color: black;
+}
+
+
+#header{
+    position : sticky;
+    top : 0;
+    z-index:20;
+}
